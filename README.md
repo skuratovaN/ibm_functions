@@ -4,6 +4,14 @@
 
     git clone https://github.com/skuratovaN/skuratova_ibm_functions.git
 
-2. Chanhe directory:
+2. Change directory:
 
     cd skuratova_ibm_functions
+
+3. Deploing command:
+
+    ibmcloud fn deploy
+
+4. Viewing packages, actions, triggers, and rules in the namespace:
+
+    ibmcloud fn list
