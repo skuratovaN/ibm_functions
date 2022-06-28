@@ -14,7 +14,11 @@
 
 4. Update action __act__ with parameters from an existing action:
 
-     ibmcloud fn action update act -a web_export true -a final true -a require-whisk-auth c99cea7e-2df8-49b2-9e6c-428039691a0a
+    ibmcloud fn action update act -a web_export true -a final true -a require-whisk-auth c99cea7e-2df8-49b2-9e6c-428039691a0a --web true
+     
+5. Create API:
+
+    ibmcloud fn api create //skuratova //currency post act --response-type json
      
 6. Deploing command:
 
