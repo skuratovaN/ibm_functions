@@ -7,11 +7,15 @@
 2. Change directory:
 
     cd skuratova_ibm_functions
+    
+3. Create action from existing file __main__.py:
 
-3. Deploing command:
+    ibmcloud fn action create act __main__.py
+
+4. Deploing command:
 
     ibmcloud fn deploy
 
-4. Viewing packages, actions, triggers, and rules in the namespace:
+5. Viewing packages, actions, triggers, and rules in the namespace:
 
     ibmcloud fn list
