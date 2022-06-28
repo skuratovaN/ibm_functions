@@ -10,7 +10,7 @@
     
 3. Create action from existing file \_\_main__.py:
 
-    ibmcloud fn action create act \_]_main__.py
+    ibmcloud fn action create act \_\_main__.py
 
 4. Deploing command:
 
