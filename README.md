@@ -8,9 +8,9 @@
 
     cd skuratova_ibm_functions
     
-3. Create action from existing file __main__.py:
+3. Create action from existing file \__main__.py:
 
-    ibmcloud fn action create act __main__.py
+    ibmcloud fn action create act \__main__.py
 
 4. Deploing command:
 
