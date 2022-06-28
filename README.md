@@ -8,11 +8,15 @@
 
     cd skuratova_ibm_functions
     
-3. Create action from existing file \_\_main__.py:
+3. Create action from existing file __\_\_main\_\_.py__:
 
     ibmcloud fn action create act \_\_main__.py
 
-4. Deploing command:
+4. Update action __act__ with parameters from an existing action:
+
+     ibmcloud fn action update act -a web_export true -a final true -a require-whisk-auth c99cea7e-2df8-49b2-9e6c-428039691a0a
+     
+6. Deploing command:
 
     ibmcloud fn deploy
 
