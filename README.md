@@ -19,11 +19,7 @@
 5. Create API:
 
     ibmcloud fn api create //skuratova //currency post act --response-type json
-     
-6. Deploing command:
 
-    ibmcloud fn deploy
-
-5. Viewing packages, actions, triggers, and rules in the namespace:
+6. Viewing packages, actions, triggers, and rules in the namespace (to make sure that action and API are already here):
 
     ibmcloud fn list
